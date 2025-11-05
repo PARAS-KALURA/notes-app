@@ -138,6 +138,45 @@ h1 {
   color: var(--text);
 }
 
+/* ---------- NOTE ACTION BUTTONS ---------- */
+.note-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* EDIT BUTTON */
+.edit-btn {
+  background: #4e9cff;
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background: #1e7eff;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: #ff4f4f;
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background: #e10000;
+}
+
+
 /* Form */
 form {
   padding: 18px;
